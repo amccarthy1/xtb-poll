@@ -4,7 +4,7 @@
   "description": "Simple poll plugin for xtb",
   "main": "index.js",
   "scripts": {
-    "test": "eslint"
+    "test": "eslint . && mocha"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/amccarthy1/xtb-poll#readme",
   "dependencies": {
-    "eslint": "^4.14.0"
+    "eslint": "^4.14.0",
+    "mocha": "^4.0.1",
+    "uuid": "^3.1.0"
   }
 }
