@@ -1,0 +1,27 @@
+{
+  "name": "xtb-poll",
+  "version": "1.0.0",
+  "description": "Simple poll plugin for xtb",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amccarthy1/xtb-poll.git"
+  },
+  "keywords": [
+    "xtb",
+    "poll",
+    "twitch"
+  ],
+  "author": "Adam McCarthy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amccarthy1/xtb-poll/issues"
+  },
+  "homepage": "https://github.com/amccarthy1/xtb-poll#readme",
+  "dependencies": {
+    "eslint": "^4.14.0"
+  }
+}
